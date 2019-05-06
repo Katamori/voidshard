@@ -1,0 +1,16 @@
+{
+    "regular": [
+        "index",
+        "template"
+    ],
+    "namespace": {
+        "namespace": [
+            "index"
+        ]
+    },
+    "reserved": [
+        "404",
+        "wanted-pages",
+        "random-article"
+    ]
+}
