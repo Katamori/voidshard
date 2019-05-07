@@ -1,6 +1,6 @@
 {
     "deps": {
-        "markdown": "./engine/third-party/markdown-browser-0.6.0-beta1.min.js"
+        "markdown": "https://katamori.github.io/sparatiro/engine/third-party/markdown-browser-0.6.0-beta1.min.js"
     },
     "paths": {
         "index": "./settings/index.json"
