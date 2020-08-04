@@ -1,18 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+html {
+    background-color: #28292a !important;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+    margin: 16px;
+}
+
+body, input, textarea, select, button {
+    border-color: #5d5d5d;
+    color: #d8d7d4;
+}
+
+h1 {
+    border-bottom: solid #5d5d5d 3px;
+}
+
+h2 {
+    border-bottom: dashed #5d5d5d 2px;
+}
+
+h3 {
+    border-bottom: dashed #383838 1px;
+}
+
+img {
+    width: 100%;
+}
+
 #content {
     max-width: 704px;
     margin: 0 auto 0;
 }
 
 #title {
-    border-bottom: solid 1px;
+    border-bottom: solid 3px;
 }
 
 .header {
-    border-bottom: solid 1px;
+    padding-bottom: 8px;
+    border-bottom: solid #5d5d5d 4px;
 }
 
 .footer {
-    border-top: solid 1px;
+    padding-top: 8px;
+    border-top: solid #5d5d5d 4px;
 }
 
 .header ul,
@@ -28,4 +62,15 @@
     float: left;
     margin: 0 16px 0 16px;
     text-align: center;
+}
+
+/*
+article links are custom colored because purple url coloration is disgustin
+*/
+a {
+    color: #009adc;  
+}
+
+a.new {
+    color: #b30000;
 }
